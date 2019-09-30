@@ -7,8 +7,11 @@ class Anagram
   end
 
   def match(array)
+  separated = []
+  sorted = []
   array.each do |word|
-    puts word.split(/[a-z]/)
+    separated << word.split(/[a-z]/)
+    separated
   end
   end
 
