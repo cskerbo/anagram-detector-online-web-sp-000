@@ -16,8 +16,6 @@ class Anagram
     sorted << letters.split(/[^ ]/)
     sorted
   end
-
-  end
   end
 
 end
