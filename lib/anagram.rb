@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-  puts  @word.split(/[a-z]/)
+  puts array.split(/[a-z]/)
 
   end
 
