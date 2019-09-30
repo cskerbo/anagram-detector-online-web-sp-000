@@ -7,8 +7,8 @@ class Anagram
   end
 
   def match(array)
-  puts array.each do |word|
-    word.split(/[a-z]/)
+  array.each do |word|
+    puts word.split(/[a-z]/)
   end
   end
 
