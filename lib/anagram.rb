@@ -8,6 +8,6 @@ class Anagram
 
   def match(array)
     @word.split(/[a-z]/)
-    
+
 
 end
