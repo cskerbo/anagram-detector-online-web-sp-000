@@ -11,7 +11,11 @@ class Anagram
   sorted = []
   array.each do |word|
     separated << word.split(/[a-z]/)
-    separated
+    separated.each do |letters|
+      sorted <<letters.split(/[^ ]/)
+      sorted
+    end
+
   end
   end
 
